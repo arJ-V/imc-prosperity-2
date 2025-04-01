@@ -519,4 +519,5 @@ def update_compare_product_options2(log_file2, directory):
     return []
 
 
-app.run_server(debug=True)
+app.run(debug=True)
+
