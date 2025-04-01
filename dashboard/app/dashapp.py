@@ -519,5 +519,5 @@ def update_compare_product_options2(log_file2, directory):
     return []
 
 
-app.run(debug=True)
-
+if __name__ == "__main__":
+    app.run(debug=True)
